@@ -1,0 +1,31 @@
+{
+  "name": "backend-mobilemed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafaelPignatari/Backend-MobileMed.git"
+  },
+  "author": "Rafael Pignatari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RafaelPignatari/Backend-MobileMed/issues"
+  },
+  "homepage": "https://github.com/RafaelPignatari/Backend-MobileMed#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mssql": "^7.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
